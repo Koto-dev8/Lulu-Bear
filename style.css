@@ -17,7 +17,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('images/bg-light.png'); /* your image path */
+  background-image: url('images/bg-light.jpeg'); /* your image path */
   background-repeat: no-repeat;
   background-size: cover;         /* Stretch image to cover screen */
   background-attachment: fixed;   /* Parallax feel */
