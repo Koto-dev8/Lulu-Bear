@@ -228,9 +228,9 @@ section {
   font-family: 'Segoe UI', 'Poppins', 'Arial', sans-serif;
   padding: 0.3em 0;
 
-  /* NEW: fake outline using drop shadows with a slight offset */
-  filter: drop-shadow(-1px -1px 0 #fcdde3)
-          drop-shadow(1px -1px 0 #fcdde3)
-          drop-shadow(-1px 1px 0 #fcdde3)
-          drop-shadow(1px 1px 0 #fcdde3);
+  /* DARK outline with soft offsets */
+  filter: drop-shadow(-1px -1px 0 #444)
+          drop-shadow(1px -1px 0 #444)
+          drop-shadow(-1px 1px 0 #444)
+          drop-shadow(1px 1px 0 #444);
 }
