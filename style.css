@@ -224,6 +224,13 @@ section {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  padding: 0.3em 0;
   font-family: 'Segoe UI', 'Poppins', 'Arial', sans-serif;
+  padding: 0.3em 0;
+
+  /* This creates a fake "outline" using multiple shadows */
+  text-shadow:
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
 }
