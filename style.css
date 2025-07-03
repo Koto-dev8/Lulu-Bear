@@ -174,3 +174,44 @@ footer {
   color: #777;
   border-top: 1px solid #eee;
 }
+/* Ensure consistent section widths and remove extra padding */
+section {
+  width: 100%;
+  max-width: 100%;
+  padding: 2em 1em;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Prevent big vertical gaps inside product sections */
+.products {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+/* Avoid oversized cards on small screens */
+.product-card {
+  width: 48%;
+  max-width: 180px;
+}
+
+/* Ensure your form fits properly on mobile */
+.contact form {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 0.5em;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 600px) {
+  .product-card {
+    width: 90%;
+    margin-bottom: 1em;
+  }
+  .grid {
+    gap: 1em;
+  }
+  .products h2, .contact h2 {
+    font-size: 1.5em;
+  }
+}
