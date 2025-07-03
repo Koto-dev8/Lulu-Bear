@@ -16,18 +16,37 @@
 
 body {
   margin: 0;
-  font-family: var(--font);
-  background-color: var(--cream);
-  color: #333;
-  line-height: 1.6;
+  padding: 0;
+  background-image: url('images/bg-light.png'); /* your image path */
+  background-repeat: no-repeat;
+  background-size: cover;         /* Stretch image to cover screen */
+  background-attachment: fixed;   /* Parallax feel */
+  background-position: center;
+  font-family: 'Segoe UI', 'Poppins', 'Arial', sans-serif;
 }
 
-header {
-  background: linear-gradient(to right, var(--mint), var(--lavender));
-  padding: 1.5em 1em;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+section {
+  background-color: rgba(255, 255, 255, 0.85); /* white with transparency */
+  border-radius: 16px;
+  padding: 2em 1em;
+  margin: 2em auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
+
+
+.header-banner {
+  background: linear-gradient(270deg, #bde0fe, #ffc8dd, #d0f4de);
+  background-size: 600% 600%;
+  animation: gradientShift 10s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 
 header h1 {
   margin: 0;
