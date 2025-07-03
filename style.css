@@ -229,8 +229,8 @@ section {
   padding: 0.3em 0;
 
   /* DARK outline with soft offsets */
-  filter: drop-shadow(-1px -1px 0 #444)
-          drop-shadow(1px -1px 0 #444)
-          drop-shadow(-1px 1px 0 #444)
-          drop-shadow(1px 1px 0 #444);
+  filter: drop-shadow(-1px -1px 0 #333)
+          drop-shadow(1px -1px 0 #333)
+          drop-shadow(-1px 1px 0 #333)
+          drop-shadow(1px 1px 0 #333);
 }
