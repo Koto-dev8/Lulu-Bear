@@ -138,8 +138,14 @@ nav a:hover {
   border-radius: 15px;
   padding: 1em;
   width: 180px;
+  max-width: 90%;
   box-shadow: 0 6px 12px rgba(0,0,0,0.05);
   transition: transform 0.2s;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
 }
 
 .product-card:hover {
@@ -228,10 +234,8 @@ section {
     margin-bottom: 1em;
   }
   .grid {
-    gap: 1em;
-  }
-  .products h2, .contact h2 {
-    font-size: 1.5em;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
