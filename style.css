@@ -1,0 +1,132 @@
+:root {
+  --pink: #ffb6c1;
+  --blue: #add8e6;
+  --yellow: #fff3b0;
+  --mint: #b2f7ef;
+  --lavender: #e0bbf7;
+  --font: 'Baloo 2', cursive;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: #fffdf8;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, var(--pink), var(--mint));
+  padding: 1em;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  background: var(--lavender);
+  text-align: center;
+  padding: 3em 1em;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.hero .btn {
+  background: var(--pink);
+  padding: 0.8em 1.5em;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.products {
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.products h2 {
+  margin-bottom: 1em;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: var(--yellow);
+  border-radius: 15px;
+  padding: 1em;
+  width: 180px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.contact {
+  padding: 2em 1em;
+  background: var(--mint);
+  text-align: center;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.contact input, .contact textarea {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: var(--font);
+}
+
+.contact button {
+  background: var(--pink);
+  color: white;
+  padding: 0.8em;
+  border: none;
+  border-radius: 20px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  background: #f0f0f0;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+}
