@@ -222,16 +222,15 @@ section {
   text-align: center;
   background: linear-gradient(90deg, #ffb6c1, #ffecd2, #b5ead7);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
   font-family: 'Segoe UI', 'Poppins', 'Arial', sans-serif;
   padding: 0.3em 0;
 
-  /* This creates a fake "outline" using multiple shadows */
-  text-shadow:
-    -1px -1px 0 #fff,
-     1px -1px 0 #fff,
-    -1px  1px 0 #fff,
-     1px  1px 0 #fff;
+  /* NEW: fake outline using drop shadows with a slight offset */
+  filter: drop-shadow(-1px -1px 0 #fcdde3)
+          drop-shadow(1px -1px 0 #fcdde3)
+          drop-shadow(-1px 1px 0 #fcdde3)
+          drop-shadow(1px 1px 0 #fcdde3);
 }
